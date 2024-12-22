@@ -1,0 +1,94 @@
+body {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.8;
+}
+h1{
+    font-size: 36px;
+    font-weight: 800;
+    color: #000000;
+    line-height: 2.0;
+   
+}
+h2{
+    font-weight: 600;
+    font-size: 32px;
+    color: #000000;
+    
+}
+ul {
+        padding-left: 0px;
+}
+.ulContent {
+    margin: 0px;
+    list-style: none;
+}
+.ulContent li {
+    padding-left: 20px;
+    list-style-type: none;
+    margin: 0px;
+    background-size: 6px;
+    line-height: 18px;
+    padding-bottom: 10px;
+    background: unset;
+}
+.ulContent li::before {
+    content: "\25CF";
+    color: #0193DE;
+    font-weight: bold;
+    display: inline-block;
+    width: 14px;
+    margin-left: -12px;
+    font-size: 16px;
+}
+ol {
+    padding-left: 22px;
+    line-height: 30px;
+}
+ol li {
+padding-left: 20px;
+}
+.button1, a.button1, a.button1:link {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #0193DE;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 700;
+    width: 170px;
+    height: 50px;
+}
+.button1:hover, a.button1:hover, a.button1:active {
+    cursor: pointer;
+    background-color: #0193DE;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
+.button2, a.button2, a.button2:link {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0193DE;
+    background-color: transparent;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-weight: 700;
+    font-size: 16px;
+    border: 2px solid #0193DE;
+    width: 170px;
+    height: 50px;
+}
+a.button2:hover, a.button2:active {
+    cursor: pointer;
+    background-color: #0193DE;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+}
